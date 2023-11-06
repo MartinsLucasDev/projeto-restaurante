@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel de Controle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gerenciador do seu negócio</h1>
+        <button id="darkModeButton">Modo Escuro</button>
+    </header>
+
+    <div class="buttons-container">
+        <button id="pdvButton">PDV <span class="emoji" role="img" aria-label="Dinheiro">💰</span></button>
+        <a href="estoque.html" id="estoqueLink">
+            <button id="estoqueButton">Estoque <span class="emoji" role="img" aria-label="Caixa">📦</span></button>
+        </a>
+        <button id="financeiroButton">Financeiro <span class="emoji" role="img" aria-label="Dinheiro">💰</span></button>
+        <button id="deliveryButton">Delivery <span class="emoji" role="img" aria-label="Entrega">🚚</span></button>
+    </div>
+
+    <div class="current-time">
+        <p id="time">Carregando...</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Lucas Martins</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
